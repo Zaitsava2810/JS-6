@@ -117,6 +117,11 @@ btn17.addEventListener("click", () => {
   inp11.value = "Ой, я поменял свой текст и css!";
 });
 
+// Задача 18
+function quantityValue(el8) {
+  el8.value++;
+}
+
 // Задача 19
 const btn19 = document.querySelector("#btn__19");
 const inp12 = document.querySelector("#input12");
@@ -175,6 +180,7 @@ btn24.addEventListener("click", () => {
   btn24.style.cursor = "not-allowed";
 });
 
+// Задача 25
 const el7 = document.querySelector("#windowResult");
 const AddVal = (value) => {
   el7.value += value;
